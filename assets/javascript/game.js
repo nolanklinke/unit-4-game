@@ -25,28 +25,28 @@ newScore();
 
 //apply random value to crystal
 function randomValue1() {
-    var crystalRandom = Math.floor(Math.random() * (19 - 1+ 1)) + 1;
+    var crystalRandom = Math.floor(Math.random() * (12 - 1+ 1)) + 1;
     $("#Gem1").attr("data-crystalValue", crystalRandom);
 };
 
 randomValue1();
 
 function randomValue2() {
-    var crystalRandom = Math.floor(Math.random() * (19 - 1+ 1)) + 1;
+    var crystalRandom = Math.floor(Math.random() * (12 - 1+ 1)) + 1;
     $("#Gem2").attr("data-crystalValue", crystalRandom);
 };
 
 randomValue2();
 
 function randomValue3() {
-    var crystalRandom = Math.floor(Math.random() * (19 - 1+ 1)) + 1;
+    var crystalRandom = Math.floor(Math.random() * (12 - 1+ 1)) + 1;
     $("#Gem3").attr("data-crystalValue", crystalRandom);
 };
 
 randomValue3();
 
 function randomValue4() {
-    var crystalRandom = Math.floor(Math.random() * (19 - 1+ 1)) + 1;
+    var crystalRandom = Math.floor(Math.random() * (12 - 1+ 1)) + 1;
     $("#Gem4").attr("data-crystalValue", crystalRandom);
 };
 
