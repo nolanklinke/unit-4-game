@@ -81,6 +81,7 @@ $("#Gem4").on("click", function() {
     $("#currentScore").html(userScore += crystalValue4);
 });
 
+//gem click function to determine win or loss
 $(".gem").on("click", function(){
     if (userScore > computerScore) {
         alert("No!");
