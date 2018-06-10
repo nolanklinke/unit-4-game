@@ -84,12 +84,12 @@ $("#Gem4").on("click", function() {
 //gem click function to determine win or loss
 $(".gem").on("click", function(){
     if (userScore > computerScore) {
-        alert("No!");
+        alert("Sorry, you lose!");
         losses++;
         game();
         
     } else if (userScore === computerScore) {
-        alert("Yes!");
+        alert("Yes, you win!");
         wins++;
         game();
     };
